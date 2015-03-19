@@ -1,0 +1,32 @@
+COMMAND LINE COMMANDS
+
+"cd ___" change directory
+"cd .." go back a level
+"mkdir ___" make directory
+"cp ___ ___" copy something somewhere and/or rename
+  "-r" recursively
+  ex: "cp -r ___ ___" copy everthing inside of something to somewhere
+  ex: "cp hello_world.py hello_world_backup.py" creates renamed backup
+"mv ___ ___" move something somewhere
+  Also for renaming file/dir
+    ex: "mv john johny" renames.
+"mv * ___" move everything somewhere
+"ls" list everything
+"ls ." list argument specifying the directory currently in (can be redundant)
+"ls ___" list everthing inside of a directory
+"pwd" print working directory
+"rm ___" remove something
+  "rm -r ___" remove directory
+  
+GIT commands
+
+"git init" creates a git within a dir
+"git status" similar to pwd, displays git status
+"git add ___" to add files to git
+  "git add *" to add all unadded files
+  ***add doesn't mean commit***
+"git commit ____ commit" to commit an add
+  "-m" to display modifications made during commit
+      ex: "git commit -m initial commit" to commit and display modifications during initial commit.
+"git push origin master" pushes to github
+"git pull origin master" pulls from github
