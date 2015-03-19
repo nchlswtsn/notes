@@ -28,5 +28,8 @@ GIT commands
 "git commit ____ commit" to commit an add
   "-m" to display modifications made during commit
       ex: "git commit -m initial commit" to commit and display modifications during initial commit.
-"git push origin master" pushes to github
+"git remote add origin https://_____" connect git to github via remote name: "origin"
+
+"git push origin master" pushes to github remote "origin" branch "master"
 "git pull origin master" pulls from github
+"git help" for commands and more
